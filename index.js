@@ -46,9 +46,7 @@ function poundsConversion(inputNumber) {
     poundsEl.innerText = `${inputNumber} pounds = ${result.toFixed(3)} kilograms`
 }
 
-//Get element by ID for input field
-//Event listener for button click
-convertBtn.addEventListener("click", function () {
+function convertValue() {
     const inputEl = document.getElementById("input-el")
     console.log(inputEl.value)
     metreConversion(inputEl.value)
@@ -57,4 +55,11 @@ convertBtn.addEventListener("click", function () {
     gallonsConversion(inputEl.value)
     kilogramsConversion(inputEl.value)
     poundsConversion(inputEl.value)
-})
+}
+
+//Get element by ID for input field
+//Event listener for button click
+convertBtn.addEventListener("click", convertValue)
+
+convertValue()
+
