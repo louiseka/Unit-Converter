@@ -14,26 +14,26 @@
 <body>
     <div class="input-block">
         <h1> Metric/Imperial Unit Conversion</h1>
-        <form class="input-form">
-            <input type="text" id="number" name="number">
-            <button type="submit"> Convert</button>
-        </form>
+        <div class="input-form">
+            <input type="number" id="input-el" name="number">
+            <button id="convert-btn"> Convert</button>
+        </div>
     </div>
     <div class="value-results">
         <div class="length-results">
-            <h2>Length (Meter/Feet)</h2>
-            <p>0</p>
-            <p>0</p>
+            <h2>Length (Metre/Feet)</h2>
+            <p id="metre-el"></p>
+            <p id="feet-el"></p>
         </div>
         <div class="volume-results">
-            <h2>Volume (Liters/Gallons) </h2>
-            <p>0</p>
-            <p>0</p>
+            <h2>Volume (Litres/Gallons) </h2>
+            <p id="litres-el"></p>
+            <p id="gallons-el"></p>
         </div>
         <div class="mass-results">
             <h2>Mass (Kilograms/Pounds)</h2>
-            <p>0</p>
-            <p>0</p>
+            <p id="kilograms-el"></p>
+            <p id="pounds-el"></p>
         </div>
     </div>
     <script src="index.js"></script>
