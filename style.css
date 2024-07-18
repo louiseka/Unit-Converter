@@ -17,8 +17,8 @@ h2 {
 .input-block {
     background-color: #6943ff;
     max-width: 600px;
-    margin: 40px auto 0 auto;
-    padding: 20px 30px;
+    margin: 2.5em auto 0 auto;
+    padding: 1.25em 1.875em;
 }
 
 .input-form {
@@ -31,11 +31,12 @@ button {
     border-radius: 3px;
     background-color: #fff;
     color: #3d3d3d;
-    font-size: 16px;
+    font-size: 1rem;
+    /* make fontsize rem */
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    padding: 10px 20px;
-    margin: 25px 0px;
+    padding: 0.625em 1.25em;
+    margin: 1.5em 0px;
     width: 100%;
     cursor: pointer;
 
@@ -45,7 +46,8 @@ input {
     background-color: #6943ff;
     border: 2px solid #b295ff;
     border-radius: 3px;
-    font-size: 58px;
+    font-size: 3.625rem;
+    /* 58px */
     font-weight: 800;
     color: #fff;
     text-align: center;
@@ -62,16 +64,17 @@ input:focus {
     max-width: 600px;
     height: fit-content;
     margin: 0 auto;
-    padding: 20px 30px;
+    padding: 1.25em 1.875em;
 }
 
 .length-results,
 .volume-results,
 .mass-results {
     background-color: #fff;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.63em;
+    padding: 0.63em;
     color: #353535;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1rem;
+    /* 16px */
 }
