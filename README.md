@@ -36,10 +36,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/unit-converter.git
+git clone https://github.com/yourusername/Unit-Converter.git
 
 # Navigate into the project directory
-cd unit-converter
+cd Unit-Converter
 
 # Open the project
 open index.html
